@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid;
+    width: 100%;
+    height: auto;
+}
+
+.container .location{
+    background-color: #800403;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+.container .location div{
+    display: flex;
+    align-items: center;
+}
+
+.container .location div img{
+    width: 35px;
+    height: 35px;
+}
+
+.container .location div p{
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+}
+
+.container .location .login_admin{
+    padding: 8px 15px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+}
+
+/*school logo*/
+.container .school_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 12px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25),rgba(255, 255, 255, 0.3)), url(assets/bg02.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.container .school_logo img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.container .school_logo h2{
+    font-size: 45px;
+    width: 35%;
+    color: darkblue;
+    text-align: center;
+}
+
+.container .school_logo h2 span{
+    color: #800403;
+}
+
+/*fullfill*/
+.container .fulfill{
+    padding: 30px 0;
+    background-color:aliceblue ;
+}
+
+.container .fulfill .notes{
+    width: 60%;
+    height: auto;
+    padding: 20px 0;
+    background-color: white;
+    border: thin solid black;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30PX;
+
+}
+
+.container .fulfill .notes h1{
+    font-size: 40px;
+    color: #800403;
+    margin-right: 35px;
+}
+
+.container .fulfill .notes ul li {
+    font-size: 18px ;
+    padding: 5px 0;
+}
+
+.container .fulfill .filluphere{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: white;
+    border: thin solid black;
+}
+
+.container .fulfill .filluphere h1{
+    text-align: center;
+    border-bottom: 4px dotted black;
+    padding: 10px 0;
+    padding-bottom: 20px;
+}
+
+.container .filluphere input{
+    border: 1px solid black;
+}
+
+/*line1*/
+
+.container .filluphere .line1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 18px 30px;
+}
+
+.container .filluphere .line1 input{
+    width: 250px;
+    height: 30px;
+    margin-right: 40px;
+}
+
+.container .filluphere .line1 h3{
+    font-size: 23px;
+}
+
+.container .filluphere .line1 .suffix{
+    width: 100px;
+}
+
+/*line2*/
+
+.container .filluphere .line2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 18px 30px;
+}
+
+.container .filluphere .line2 input{
+    width: 280px;
+    height: 30px;
+    margin-right: 30px;
+}
+
+.container .filluphere .line2 h3{
+    font-size: 23px;
+}
+
+.container .filluphere .line2 .date{
+    width: 150px;
+}
+
+.container .filluphere .line2 .genderhere{
+    width: 150px;
+}
+
+.container .filluphere .line2 .forgenderdiv{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+
+}
+
+.container .filluphere .line2 .forgenderdiv label{
+    padding: 0 20px;
+}
+
+.container .filluphere .line2 .forgenderdiv input{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+}
+
+/* line3 */ 
+
+.container .filluphere .line3{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 18px 30px;
+}
+
+.container .filluphere .line3 input{
+    width: 150px;
+    height: 30px;
+    margin-right: 50px;
+}
+
+.container .filluphere .line3 h3{
+    font-size: 23px;
+}
+
+.container .filluphere .line3 .address{
+    width: 400px;
+}
+
+.container .filluphere .line3 .zip{
+    width: 100px;
+}
+
+/*line 4*/
+
+.container .filluphere .line4{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 18px 30px;
+}
+
+.container .filluphere .line4 input{
+    width: 300px;
+    height: 30px;
+    margin-right: 40px;
+}
+
+.container .filluphere .line4 h3{
+    font-size: 23px;
+}
+
+/* line5 */
+.container .filluphere .line5{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 18px 30px;
+}
+
+.container .filluphere .line5 input,.container .filluphere .line5 select{
+    width: 250px;
+    height: 30px;
+    margin-right: 60px;
+    font-weight: bold;
+}
+
+.container .filluphere .line5 select option{
+    font-weight: bold;
+
+}
+
+.container .filluphere .line5 h3{
+    font-size: 23px;
+}
+
+.container .filluphere .line5 .progs{
+    width: 350px;
+}
+
+/* line6 */
+.container .filluphere .line6{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 18px 30px;
+}
+
+.container .filluphere .line6 input{
+    width: 300px;
+    height: 30px;
+    margin-right: 80px;
+}
+
+.container .filluphere .line6 h3{
+    font-size: 23px;
+}
+
+.container .filluphere .line6 .campus{
+    width: 400px;
+}
+
+/* req */
+.container .reqs{
+    padding: 20px 50px;
+}
+
+.container .reqs p{
+    font-size: 18px;
+}
+
+.container .reqs p span{
+    font-weight: bold;
+}
+
+.container .reqs .reqs01{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.container .reqs .reqs01 input{
+    margin-left: 30px;
+}
+
+.container .reqs .reqs01 ul{
+    padding-top: 10px;
+}
+
+.container .reqs .reqs01 ul li{
+    font-size: 18px;
+}
+
+/* submit */
+.container .submitherebig{
+    width: 70%;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px black;
+    background-color: #a50000;
+    display: block;
+    margin: 20px auto;
+    border: thin solid #a50000;
+    font-weight: bold;
+}
+
+.container .filluphere .lastnote{
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 18px;
+    border-top: 4px dotted black;
+}
+
+/*footer*/
+.container .footer{
+    background-color: #800403;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.container .footer div img{
+    width: 150px;
+    height: 150px;
+}
+
+.container .footer h1{
+    font-size: 32px;
+}
+
+.container .footer h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.container .footer h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container .footer p{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
