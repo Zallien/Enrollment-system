@@ -106,27 +106,17 @@
 
 .container .navbar ul li a.home::after{
     transform: translateX(-45px);
-    width: 10px;
-    visibility: hidden;
+    width: 45px;
+    visibility: visible;
 }
 
-.container .navbar ul li a:hover:not(.contactusnav):after{
+.container .navbar ul li a:hover:not(.home):after{
     width: 80px;
     visibility: visible;
 }
 
 .container .navbar ul li a.about_us:hover::after{
     width: 70px;
-    visibility: visible;
-}
-
-.container .navbar ul li a.contactusnav::after{
-    visibility: visible;
-    width: 80px;
-}
-
-.container .navbar ul li a.home:hover::after{
-    width: 45px;
     visibility: visible;
 }
 
@@ -159,7 +149,7 @@
 }
 
 /*maintop*/
-.container .maintop1{
+.container .maintop{
     background-image: linear-gradient(rgba(255, 255, 255, 0.153),rgba(255, 255, 255, 0.2)), url(assets/bg02.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -169,126 +159,122 @@
     padding-left: 50px;
 }
 
-.container .maintop1 h1{
-    font-size: 65px;
+.container .maintop h1{
     text-align: center;
+    font-size: 3.2rem;
 }
 
-.container .maintop1 h2{
-    font-size: 30px;
+.container .maintop h2{
+    font-size: 1.5rem;
     text-align: center;
     font-weight: 500;
 }
 
-
-/*filloutmsg*/
-.container .getintouch{
-    display: flex;
-    justify-content: center;
-    background-color:aliceblue;
-    padding: 10vh 0;
-}
-
-.container .getintouch div{
-    width: 40%;
-    height: auto;
-    padding: 10px 0;
-}
-
-.container .getintouch .div01{
-    padding-left: 40px;
-}
-
-.container .getintouch .div01 p{
-    font-size: 25px;
-    font-weight: bold;
-    text-shadow: 1px 1px white;
-}
-
-.container .getintouch .div01 input{
-    width: 50%;
-    height: 30px;
-    text-align: left;
-    padding-left: 10px;
-    outline: none;
+/*touch*/
+.container .touch{
+    background-color: aliceblue;
     border: thin solid black;
-}
-
-.container .getintouch .div01 input.msg{
-    height: 200px;
-    text-orientation: sideways;
-    text-align:justify;
-}
-
-.container .getintouch .div01 button{
-    display: block;
-    padding: 12px 25px;
-    font-size: 18px;
-    color: white;
-    text-shadow: 1px 1px black;
-    background-color: #a50000;
-    border: thin solid black;
-    margin-top: 30px;
-    border-radius: 10px;
-}
-
-.container .getintouch .div02{
-    padding-left: 10px;
-    width: 50%;
-}
-
-.container .getintouch .div02 h3{
-    font-size: 23px;
-    color: #a50000;
-    text-shadow: 1px 1px black;
-    margin-left: 20px;
-}
-
-.container .getintouch .div02 h1{
-    font-size: 40px;
-    text-shadow: 1px 1px white;
-}
-
-.container .getintouch .div02 p{
-    width: 90%;
-    font-size: 18px;
-}
-
-.container .getintouch .div02 .contactsicons{
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
-    height: auto;
-    border: none;
+    padding: 30px 0;
 }
 
-.container .getintouch .div02 .contactsicons div h3{
-    font-size: 21px;
-    color: black;
+.container .touch div{
+    width: 45%;
+}
+
+.container .touch .div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .touch .div1 div{
+    padding: 8px 0;
+    padding-bottom: 20px;
+    width: 60%;
+}
+
+.container .touch .div1 div p{
+    font-size: 1.8rem;
     font-weight: bold;
+
 }
 
-.container .getintouch .div02 .contactsicons div h3 span{
-    font-weight: normal;
+.container .touch .div1 div input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.container .touch .div1 div input.message{
+    height: 15vh;
+}
+
+.container .touch .div1 button{
+    width: fit-content;
+    height: auto;
+    padding: 8px 25px;
+    background-color: #800403;
+    border-style: solid;
+}
+
+.container .touch .div1 button a{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.container .touch .div2 .div2content{
+    width: 90%;
+    padding: 10px 0;
+    height: auto;
+}
+
+.container .touch .div2 .div2content h2{
+    color: #800403;
+    font-size: 1.8rem;
+    padding-left: 20px;
+}
+
+.container .touch .div2 .div2content h1{
+    font-size: 3rem;
+    word-spacing: 6px;
+}
+
+.container .touch .div2 .div2content p{
     font-size: 18px;
 
 }
 
-.container .getintouch .div02 .contactsicons div{
-    display: flex;
-    border: none;
+.container .touch .div2 .div2content table{
+    width: 100%;
+    text-align: left;
 }
 
-.container .getintouch .div02 .contactsicons img{
-    width: 60px;
-    height: 60px;
+.container .touch .div2 .div2content table th{
+    visibility: hidden;
 }
 
+.container .touch .div2 .div2content table td{
+    padding: 10px 0;
+    padding-top: 0;
+    padding-left: 8px;
+}
 
-/*sutdyhere*/
+.container .touch .div2 .div2content table tr td p{
+    font-size: 18px;
+}
+
+.container .touch .div2 .div2content table tr td p span{
+    font-weight: bold;
+}
+
+/*map*/
 .container .map{
     width: 100%;
-    height: 50vh;
+    height: 40vh;
 
 }
 
@@ -296,8 +282,6 @@
     width: inherit;
     height: inherit;
 }
-
-
 
 /*footer*/
 .container .footer{
@@ -331,5 +315,3 @@
     font-weight: bold;
     color: white;
 }
-
-
